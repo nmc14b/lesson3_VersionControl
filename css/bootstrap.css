@@ -1086,7 +1086,7 @@ html {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 body {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Helvetica Neue";
   font-size: 14px;
   line-height: 1.42857143;
   color: #333;
@@ -1407,6 +1407,11 @@ a.bg-danger:hover {
   margin: 40px 0 20px;
   border-bottom: 1px solid #eee;
 }
+
+ul {
+  font: monospace;
+}
+
 ul,
 ol {
   margin-top: 0;
@@ -1432,6 +1437,7 @@ ol ol {
   padding-right: 5px;
   padding-left: 5px;
 }
+
 dl {
   margin-top: 0;
   margin-bottom: 20px;
